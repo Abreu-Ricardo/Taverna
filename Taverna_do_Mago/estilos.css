@@ -1,0 +1,105 @@
+div{
+	font-size: 24px
+}
+a {
+	text-decoration: none;
+	color: black; font-weight: bold;
+	padding: 20px}
+#jamilton{
+	margin-top: 29px;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	position: relative;
+}
+
+#apre{
+	float: left;
+	width: 700px;
+	color: #f4f1de;
+	margin-left: 10px;
+	font-family: "Times New Roman","Times", serif ;font
+	
+}
+#apre2{
+	float: left;
+	width: 700px;
+	color: #f4f1de;
+	margin-left: 10px;
+	font-family: "Times New Roman","Times", serif ;font
+	padding: 10px;
+	margin-top: 30px;
+	position: relative;
+	bottom: -100px	
+}
+text{
+	font-size: 1em
+	color:green;
+}
+hr{
+	color: #5c3324;
+}
+.gold{
+	color: #dda15e;
+	font-size:1em;
+}
+h2 {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.imagensEsquerda {
+	height: 400px;
+	padding: 20px;
+	position: relative;
+}
+.imagensCentro {
+	height: 400px;
+	padding: 20px;
+	position: relative;
+	left: 200px
+}
+.imagensDireita {
+	height: 400px;
+	padding: 20px;
+	position: relative;
+	left:400px
+}
+#jiro{
+	text-align: center;
+	display: inline;
+	margin-left: 120px;
+	font-size:36px;
+}
+#kyser{
+	text-align: center;
+	display: inline;
+	margin-left: 350px;
+	font-size:36px;
+}
+#eva{
+	text-align: center;
+	display: inline;
+	margin-left: 350px;
+	font-size:36px;
+}
+.paragrafo{
+	font-size: 2em
+	
+}
+h3{
+	font-size: 2em
+}
+.flex{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
