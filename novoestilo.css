@@ -1,0 +1,120 @@
+body{
+	background-image: url(imagens/taverna.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: #fcbf49;
+}
+.borda{
+	width: 75%;
+	margin: auto;
+	background-image: url(imagens/madeira.jpg);
+}
+
+#entrada {
+	font-size: 3em;
+	text-align: center;
+	background-image: url(imagens/madeira.jpg);
+}
+#menu a {
+	padding: 10px;
+	margin-left: 10%;
+	margin: right;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center center;
+	color: #fcbf49;
+	display: inline-block;
+	height: 10%;
+}
+#menu a:hover {
+	color: #003049;
+	background:#d62828; 
+}
+#jamilton{
+	display: inline-block;
+	float: left;
+}
+p{
+	font-size: 1.5em;
+	color: #eae2b7;
+	padding: 3%;
+	
+}
+img p{
+	display: inline-block;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+h2{
+	padding: 1% 3%;
+}
+ul{
+	list-style-type: none;
+}
+li{
+		padding: 0.8%;
+}
+li a{
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #eae2b7;
+}
+
+
+
+
+/* Interface principal */
+
+
+/* Interface da história */
+
+#nomepersonagem{
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+}
+#personagem{	
+	width: 100%;
+}
+#personagem img{
+	display: block;
+	margin: auto;
+	height: 400px;
+}
+
+
+/* Interface da história */
+
+
+/* Interface do cadastro */
+
+#convite p{
+	font-size: 2.5em;
+	color: #e6a47e;
+}
+
+
+/* Interface do cadastro */
+
+fieldset{
+	width: 45%;
+	margin: auto;
+}
+form{
+	display: flex;
+}
+legend{
+	font-size: 1.5em;
+}
+label{
+	padding: 2%;
+	display: block;
+	font-size: 1.3em;
+}
+button{
+	margin: 2% 0;
+}
