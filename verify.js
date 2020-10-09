@@ -9,18 +9,23 @@ function processaCadastro(){
 
     if (usuario != null && email != null){
         
-        if (senha == senhaconfirm && senha!=""){
+        if ((senha == senhaconfirm && senha!="") && (senha.length >= 5)){
             // Mandar os dados para o banco de dados
             // usar php para isso
+            alert("Cadastro efetuado com sucesso");
             redir();
             return;
         }
         
         // Se as senhas nao corresponderem refazer
         // formulario
-        else{
+        else if(senha != senhaconfirm){
             alert("Senhas nao correspondem");
-            return;
+        }
+
+        else{
+            // Se a senha for curta
+            alert("Senha com no minimo 5 caracteres");
         }
     }
     return;
