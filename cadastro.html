@@ -3,6 +3,7 @@
 <head>
 	<title>Taverna do mago</title>
 	<link rel="stylesheet" type="text/css" href="novoestilo.css">
+	<script src="verify.js"></script>
 </head>
 <body id="fundo">
 	<div>
@@ -24,39 +25,41 @@
 	</div>
 	<div class="borda">
 		<div>
-			<form>
+			<form >
 				
 				<fieldset>
 					<legend>Crie sua conta</legend>
 					<div>
 						<label for="Login">Login:</label>
-						<input type="text" name="Login" id="Login">
+						<input type="text" name="Login" id="Login1" maxlength="20" value ="" placeholder="Digite seu nickname">
 					</div>
 					<div>
 						<label for="Email">Email:</label>
-						<input type="text" name="Email" id="Email">
+						<input type="email" name="Email" id="Email" value ="" placeholder="Digite seu email">
 					</div>
 					<div>
 						<label for="Senha">Senha:</label>
-						<input type="text" name="Senha" id="Senha">
+						<input type="password" name="Senha" id="Senha1" value ="" placeholder="Digite sua senha">
 					</div>
 					<div>
-						<label for="Senha">Digite a senha novamente:</label>
-						<input type="text" name="Senha" id="Senha">
+						<label for="SenhaConfirm">Digite a senha novamente:</label>
+						<input type="password" name="Senha" id="SenhaConfirm" value ="" placeholder="Confirme sua senha">
 					</div>
-					<button>Confirmar</button>
+
+					<button type ="button" onclick="processaCadastro()">Confirmar</button>
+
 				</fieldset>
 				<fieldset>
 					<legend>Fazer login</legend>
 					<div>
 						<label for="Login">Login:</label>
-						<input type="text" name="Login" id="Login">
+						<input type="text" name="Login" id="Login2" value="">
 					</div>
 					<div>
 						<label for="Senha">Senha:</label>
-						<input type="text" name="Senha" id="Senha">
+						<input type="text" name="Senha" id="Senha2" value="">
 					</div>
-					<button>Logar</button>
+					<button onclick="">Logar</button>
 				</fieldset>
 			</form>
 		</div>

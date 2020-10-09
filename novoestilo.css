@@ -8,6 +8,7 @@ body{
 }
 .borda{
 	width: 75%;
+	height: 100%;
 	margin: auto;
 	background-image: url(imagens/madeira.jpg);
 }
@@ -117,4 +118,18 @@ label{
 }
 button{
 	margin: 2% 0;
+}
+
+#box{
+	width:75%;
+	height: 100%;
+	display: flex;
+	flex-direction: line;
+	resize: none;
+}
+
+#text{
+	height: 25em;
+	/* padding: 10em; */
+	
 }
