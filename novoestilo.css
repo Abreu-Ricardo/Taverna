@@ -129,7 +129,9 @@ button{
 }
 
 #text{
-	height: 25em;
-	/* padding: 10em; */
-	
+	height: 35em;
+	width: 100em;
+	/* padding: 0em; */
+	/* columns: 12; */
+	/* grid-row: 20; */
 }
