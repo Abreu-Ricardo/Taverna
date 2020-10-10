@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Taverna do mago</title>
-	<link rel="stylesheet" type="text/css" href="novoestilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body id="fundo">
 	<div>
@@ -11,10 +11,10 @@
 		</div>
 		<br>
 		<div id="menu" class="borda">
-			<button >Jiro </button> 
-			<button >Taru</button>
-			<button >Dificil</button>
-			<button >Sair </button>
+			<a href="index.html">Início</a> 
+			<a href="historias.html">Histórias</a>
+			<a href="diretrizes.html">Diretrizes</a>
+			<a href="cadastro.html">Cadastro/Login</a>
 		</div>
 	</div>
 	<br>
@@ -29,12 +29,12 @@
 
 				<label for="box">Conte-nos um pouco sobre você.</label>
 				
-				<textarea  name= "historia" type="text" id="box" >
+				<textarea  name= "historia" type="text" id="box">
 					
 				</textarea>
 
 				<!-- Ao clicar, um codigo php fica responsavel por salvar a historia no bd -->
-				<button type="button"> Salvar</button>
+				<a><button id="menu"type="button"> Salvar</button></a>
 			</div>
 		</form>
 		<div class="clear"></div>
