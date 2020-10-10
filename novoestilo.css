@@ -2,7 +2,7 @@ body{
 	background-image: url(imagens/taverna.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	color: #fcbf49;
 }
